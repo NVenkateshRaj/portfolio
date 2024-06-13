@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "465876269736",
+    "project_id": "portfolio-b8b5f",
+    "storage_bucket": "portfolio-b8b5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465876269736:android:1ff73303ac103fbe4ba09d",
+        "android_client_info": {
+          "package_name": "com.example.venkatesh"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfAXqjlxUCO1vjlplPAOyqf42SHt3LPf0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
