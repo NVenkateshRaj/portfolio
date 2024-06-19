@@ -14,5 +14,5 @@ class PortfolioErrorState extends PortfolioState{}
 
 class PortfolioListState extends PortfolioState{
   final ProfileDetails profileDetails;
-  PortfolioListState(this.profileDetails);
+  PortfolioListState({required this.profileDetails});
 }

@@ -5,6 +5,7 @@ class ProfileDetails {
   String? name;
   Personal? personal;
   List<String>? skills;
+  String? summary;
 
   ProfileDetails(
       {this.education,
@@ -12,7 +13,8 @@ class ProfileDetails {
         this.experience,
         this.name,
         this.personal,
-        this.skills});
+        this.skills,
+        this.summary});
 
   ProfileDetails.fromJson(Map<String, dynamic> json) {
     if (json['education'] != null) {
@@ -33,22 +35,18 @@ class ProfileDetails {
         ? Personal.fromJson(json['personal'])
         : null;
     skills = json['skills'].cast<String>();
+    summary = json['summary'];
   }
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = <String, dynamic>{};
-    if (education != null) {
-      data['education'] = education!.map((v) => v.toJson()).toList();
-    }
+    data['education'] = education != null ? education!.map((v) => v.toJson()).toList() : [];
     data['exp'] = exp;
-    if (experience != null) {
-      data['experience'] = experience!.map((v) => v.toJson()).toList();
-    }
+    data['experience'] =experience != null ?  experience!.map((v) => v.toJson()).toList() : [];
     data['name'] = name;
-    if (personal != null) {
-      data['personal'] = personal!.toJson();
-    }
+    data['personal'] = personal?.toJson();
     data['skills'] = skills;
+    data['summary'] = summary;
     return data;
   }
 }
