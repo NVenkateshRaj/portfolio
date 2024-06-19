@@ -46,6 +46,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '465876269736',
     projectId: 'portfolio-b8b5f',
     authDomain: 'portfolio-b8b5f.firebaseapp.com',
+    databaseURL: 'https://portfolio-b8b5f-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'portfolio-b8b5f.appspot.com',
     measurementId: 'G-QM2FMSGRWP',
   );
@@ -55,6 +56,7 @@ class DefaultFirebaseOptions {
     appId: '1:465876269736:android:1ff73303ac103fbe4ba09d',
     messagingSenderId: '465876269736',
     projectId: 'portfolio-b8b5f',
+    databaseURL: 'https://portfolio-b8b5f-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'portfolio-b8b5f.appspot.com',
   );
 
@@ -63,6 +65,7 @@ class DefaultFirebaseOptions {
     appId: '1:465876269736:ios:fa56cc86c22437f54ba09d',
     messagingSenderId: '465876269736',
     projectId: 'portfolio-b8b5f',
+    databaseURL: 'https://portfolio-b8b5f-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'portfolio-b8b5f.appspot.com',
     iosBundleId: 'com.example.venkatesh',
   );
@@ -72,6 +75,7 @@ class DefaultFirebaseOptions {
     appId: '1:465876269736:ios:fa56cc86c22437f54ba09d',
     messagingSenderId: '465876269736',
     projectId: 'portfolio-b8b5f',
+    databaseURL: 'https://portfolio-b8b5f-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'portfolio-b8b5f.appspot.com',
     iosBundleId: 'com.example.venkatesh',
   );
@@ -82,7 +86,9 @@ class DefaultFirebaseOptions {
     messagingSenderId: '465876269736',
     projectId: 'portfolio-b8b5f',
     authDomain: 'portfolio-b8b5f.firebaseapp.com',
+    databaseURL: 'https://portfolio-b8b5f-default-rtdb.asia-southeast1.firebasedatabase.app',
     storageBucket: 'portfolio-b8b5f.appspot.com',
     measurementId: 'G-CTXM7XY7KP',
   );
+
 }

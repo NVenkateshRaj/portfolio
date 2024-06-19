@@ -1,0 +1,3 @@
+enum PortfolioEvents{
+  fetchDetails
+}
